@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js add react-navigation moment axios native-base
+  /usr/local/bin/node /usr/local/bin/yarn add axios
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/usr/local/go/bin:/opt/X11/bin
@@ -23,6 +23,7 @@ npm manifest:
       "native-base": "^2.3.10",
       "react": "16.2.0",
       "react-native": "https://github.com/expo/react-native/archive/sdk-25.0.0.tar.gz",
+      "react-native-indicators": "^0.12.0",
       "react-navigation": "^1.5.8"
     }
   }
@@ -3496,6 +3497,12 @@ Lockfile:
     dependencies:
       hoist-non-react-statics "^2.3.1"
       invariant "^2.2.2"
+      prop-types "^15.5.10"
+  
+  react-native-indicators@^0.12.0:
+    version "0.12.0"
+    resolved "https://registry.yarnpkg.com/react-native-indicators/-/react-native-indicators-0.12.0.tgz#97e7f0eff7dbef719ec4017d7909ba1677536175"
+    dependencies:
       prop-types "^15.5.10"
   
   react-native-iphone-x-helper@^1.0.1:

@@ -8,8 +8,8 @@ import Search from './Screens/Search'
 
 const Router = TabNavigator(
   {
-    TopRated: { screen: TopRate },
     Search: { screen: Search },
+    TopRated: { screen: TopRate },
   },
   {
     navigationOptions: ({ navigation }) => ({

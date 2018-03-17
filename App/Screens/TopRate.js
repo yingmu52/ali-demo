@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View, FlatList } from 'react-native';
 import { Icon } from 'native-base'
-import axios from 'axios'
+import axios from 'axios';
 import Cards from '../Components/Cards'
 
 export default class TopRate extends React.Component {
@@ -11,7 +11,7 @@ export default class TopRate extends React.Component {
   componentDidMount() {
     axios({
       method: "GET",
-      url: "",
+      url: ""
     })
     .then(({data}) => {
       console.log(data.results);
